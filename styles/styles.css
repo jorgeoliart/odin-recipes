@@ -19,8 +19,13 @@ img {
     margin-bottom: 2rem;
 }
 
-.main-page-title {
+.main-page-title, .dish-title {
     font-size: 3em;
+}
+
+.dish-title {
+    color: #14277c;
+    font-weight: 200;
 }
 
 .list-recipes {
@@ -37,3 +42,35 @@ img {
     text-decoration: none;
     color: rgb(85, 75, 75)
 }
+
+h2.recipe-description, h2.recipe-ingredients, h2.recipe-steps {
+    color: #14277c;
+    margin-top: 2rem;
+    font-size: 1.7rem;
+    font-weight: 200;
+}
+
+p {
+    text-align: justify;
+}
+
+.recipe-ingredients li, .recipe-steps li  {
+    margin-bottom: 0.7rem;
+}
+
+.recipe-steps li {
+    line-height: 1.5rem;
+}
+
+.referential-recipe {
+    font-style: italic;
+    margin: 2.5rem 0;
+}
+
+.odin-button {
+    border: solid 1px #7e7e7e;
+    padding: 5px 10px;
+    border-radius: 5px;
+    text-decoration: none
+}
+
