@@ -14,3 +14,26 @@ img {
     margin: 0 auto;
     max-width: 600px;
 }
+
+.main-image {
+    margin-bottom: 2rem;
+}
+
+.main-page-title {
+    font-size: 3em;
+}
+
+.list-recipes {
+    list-style-type: none;
+    text-align: center;
+    font-size: 1.3rem;
+}
+
+.list-recipes li {
+    line-height: 2.2rem;
+}
+
+.list-recipes li a {
+    text-decoration: none;
+    color: rgb(85, 75, 75)
+}
